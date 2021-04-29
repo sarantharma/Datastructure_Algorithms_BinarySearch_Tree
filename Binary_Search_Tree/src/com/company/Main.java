@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        // Create a new tree
         BinarySearchTree<Integer> tree1 = new BinarySearchTree<Integer>();
         tree1.insert(3);
         tree1.insert(4);
@@ -13,8 +14,6 @@ public class Main {
         tree1.insert(5);
         tree1.insert(0);
         tree1.insert(-1);
-        //tree1.insert(1);
-
 
         tree1.traverseInorder();
 

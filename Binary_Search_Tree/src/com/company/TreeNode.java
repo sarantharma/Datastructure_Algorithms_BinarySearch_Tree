@@ -34,6 +34,7 @@ public class TreeNode<T extends Comparable<T>>{
     }
 
 
+    // Insert a node into the Tree
     public void insert(T value){
         if(data.compareTo(value) == 0){
             return;
@@ -54,6 +55,7 @@ public class TreeNode<T extends Comparable<T>>{
 
     }
 
+    // Get the Node of the value passed
     public TreeNode<T> get(T value){
         if(data.compareTo(value) == 0){
             return this;

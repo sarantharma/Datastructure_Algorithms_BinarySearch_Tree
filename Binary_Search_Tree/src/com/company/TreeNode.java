@@ -1,7 +1,7 @@
 package com.company;
 
 public class TreeNode<T extends Comparable<T>>{
-    private T data;
+    private T data; // The data saved
     private TreeNode<T> leftChild;
     private TreeNode<T> rightChild;
 

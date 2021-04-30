@@ -15,6 +15,7 @@ public class Main {
         tree1.insert(0);
         tree1.insert(-1);
 
+        // Print the tree in order
         tree1.traverseInorder();
 
         tree1.delete(0);
